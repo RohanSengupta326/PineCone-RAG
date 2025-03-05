@@ -19,7 +19,7 @@ if __name__ == "__main__":
     llm = ChatOllama(model='mistral', temperature=0,)
 
     query = "what is Pinecone in machine learning?"
-    chain = PromptTemplate.from_template(template=query) | llm
+    # chain = PromptTemplate.from_template(template=query) | llm
     # result = chain.invoke(input={})
     # print(result.content)
 
